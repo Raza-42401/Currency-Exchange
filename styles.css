@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(assets/currency\ exchange.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    opacity: 70%;
+}
+.container:hover{
+    opacity: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-section, .dropdowns, .buttons {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#convert-btn {
+    background-color: #2878a7;
+    color: #fff;
+}
+
+#clear-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
